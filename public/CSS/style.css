@@ -1,0 +1,134 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  height: 100% !important;
+  display: flex;
+  flex-direction: column;
+}
+
+footer {
+  font-size: 0.9rem;
+}
+
+.footer-elements a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.5rem;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+}
+
+h3 {
+  margin-top: 1rem;
+  font-weight: 600;
+}
+
+.navbar{
+    height: 4rem !important; 
+}
+
+/* Make cards square */
+.benefit-card {
+  aspect-ratio: 1 / 0.5;   /* keeps width and height equal */
+  border-radius: 12px;
+  transition: transform 0.2s ease-in-out;
+  margin: 0 10px; /* small left-right margin */
+}
+
+.benefit-card:hover {
+  transform: translateY(-5px);
+}
+
+/* Ensure text fits well */
+.benefit-card .card-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+/* Section title */
+h2 {
+  color: black;
+  margin-bottom: 2rem;
+}
+
+/* ICONS */
+.icons{
+    font-size: 4rem;
+}
+
+.image-and-text{
+    display: flex;
+    flex-wrap: nowrap;
+    margin-left: 10rem;
+    margin-right: 10rem;
+}
+
+.image-and-text img{
+    margin-right: 2rem;
+}
+.image-and-text p{
+    opacity: 0.6;
+    text-align: center;
+}
+
+.image-and-text ul{
+    opacity: 0.8;
+    font-size: 1.5rem;
+}
+
+.req{
+    margin-left: 3rem;
+}
+
+.lists-of-degrees{
+    display: flex;
+    justify-content: space-evenly;
+    opacity: 0.6;
+}
+
+.why-freelancer{
+    margin-left: 4rem;
+    margin-right: 4rem;
+}
+
+.blocks{
+    display: flex;
+    opacity: 0.7;
+}
+
+.inside-block-1{
+    padding-left: 5rem;
+    padding-right: 1rem;
+}
+
+.inside-block-2{
+    padding-right: 5rem;
+    padding-left: 1rem;
+}
+
+
+.steps-card {
+  width: 14rem;  /* keeps width and height equal */
+}
+
+.card{
+    height: 200px !important;
+}
+
+.card-title i{
+    font-size: 4rem;
+    padding-bottom: 2rem;
+    padding-top: 1rem;
+}
+
+.Faqs{
+    height: 500px
+}
+
+.addresses{
+    padding-left: 1.5rem !important;
+}
+
+.regiser_form{
+    height: 500px;
+}
