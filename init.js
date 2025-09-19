@@ -18,8 +18,6 @@ async function main() {
 
     } catch(err) {
         console.error("Error:", err);
-    } finally {
-        mongoose.connection.close();
     }
 }
 
